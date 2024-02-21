@@ -1,0 +1,109 @@
+.titulo{
+    text-align: center;
+}
+
+.titulo2{
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #3498db;
+    padding: 10px; 
+    
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.profesion{
+    text-align: center;
+}
+
+.banner {
+    background-image: url('/img/banner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu a:hover {
+    color: black;
+}
+
+.contenido-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ubi{
+    display: flex;
+    align-items: flex-end;
+}
+
+.btn-contactar {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #3498db;
+    background-color: #fff;
+    background-color: #fff;
+    border-color:  #3498db;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.navegacion{
+    width: 100vw;
+}
+
+.contenido-banner h2, svg, p{
+    color:white;
+}
+
+.contenido-banner h2{
+    font-size: 36px;
+}
+
+.habs{
+    display: flex;
+    justify-content: center;
+}
+
+.skills{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.diseno{
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+
+}
+
+.diseno p{
+    color: black;
+}
+
+.icono-world{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
